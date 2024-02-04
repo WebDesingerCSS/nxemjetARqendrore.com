@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js"></script>
+    <style>
+        body{
+            background-color: rgb(46, 45, 43);
+
+        }
+        .divi1{
+            background-image: url(logo1.png);
+            height: 300px;
+            width: 300px;
+            background-size: 300px;
+            background-repeat: no-repeat;
+            margin-left: 770px;
+            margin-top: -40px;
+        }
+        .divi2{
+            background-image: url(ll2.png);
+            height: 500px;
+            width: 500px;
+            background-size: 500px;
+            background-repeat: no-repeat;
+            margin-left: 70px;
+            margin-top: -200px;    
+        }
+        .h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        hr{
+            width: 300px;
+        }
+        .divi3{
+            background-color: rgb(128, 128, 128);
+            height: 200px;
+            width: 200px;
+            border-radius: 30px;
+            margin-left: 00px ;
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(46, 45, 43);
+            margin-top: -400px;
+        }
+        .divi4{
+            background-color: rgb(128, 128, 128);
+            height: 200px;
+            width: 200px;
+            border-radius: 30px;
+            margin-left: 700px ;
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(46, 45, 43);
+        }
+        .sr{
+            margin-top: 500px;
+        }
+        .sear{
+            display: none;
+        }
+        .h21{
+            margin-left: -620px;
+            margin-top: 40px;
+        }
+        .h22{
+            margin-left:  600px;
+            margin-top: -40px;
+        }
+        .div11{
+            background-image: url(ill2.jpg);
+            background-size: 300px;
+            height: 300px;
+            background-size: 300px;
+            background-repeat: no-repeat;
+            margin-left: 650px;
+        }
+        .div12{
+            background-image: url(searsearsear123123.png);
+            background-size: 300px;
+            height: 300px;
+            background-size: 300px;
+            background-repeat: no-repeat;
+            margin-left: 50px;
+            margin-top: -300px;
+            display: none;
+        }
+    </style>
+      <link rel="icon" href="logo1.png" type="image/png" class="s1">
+      <link rel="icon" href="logo1.png" sizes="16x16" type="image/png" class="s1">
+      <link rel="icon" href="logo1.png" sizes="32x32" type="image/png" class="s1">
+    </head>
+    <h1 class="h1">Nxemje Qendrore</h1>
+    
+    <hr>
+    <div class="divi1"></div>
+    <div class="divi2"></div>
+    <div class="divi4">
+        <h1 class="sear">Ne kemi 2 lloje te radiatoreve</h1>
+        <h2 class="h21">Nentoksor</h2>
+        <h2 class="h22">Mbitoksor</h2>
+
+
+        <div class="div11"></div>
+        <div class="div12"></div>
+
+    <div class="divi3">
+        <h2>Nxemjet tona<br>("Kliko")</h2>
+    </div>        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <p class="sr">.</p>
+    <script>
+        
+        $(".divi4").click(function(){
+            $(".divi3").hide()
+            $(".sear").show()
+            $(".div12").show()
+            $(".divi4").animate({
+             height :"600px" ,
+             width:"1000px" ,
+             borderRadius: "30px"
+            }
+          ,600);
+        })
+
+    </script>
+</body>
+</html>
